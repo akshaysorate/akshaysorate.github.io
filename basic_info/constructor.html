@@ -1,0 +1,65 @@
+---
+layout: default
+title: constructor
+---
+        
+		  <link rel="stylesheet " href="../css/basic_info.css"/>
+	
+		
+		
+	        <body>
+		
+		    <div class="margin_function">	
+			<div class="content">
+			<span ><div class="heading"><h3>Difference between constructor and factory function </h3></div></span>
+				
+		     <div class="paragraph">
+		     	<h4>Constructor </h4>
+		     	<p><ul>
+		     		<li>constructor is used for creation of object. Constructor main task is intialization</li> 
+		     		<li>constructor automatically returns  the values no need to return statement</li>
+		     		<li> Constructor -which creats the objects then return it.</li>
+		     		</ul>
+		     		</p>
+		     
+                
+               
+               	 <p> Using constructor we can create number of same type of 
+                  objects.Same type of means the objects having same properties.</p>
+                <p><b>Syntax:</b></p>  
+                <p>use capital letter to name the constructor function so that it has easily identify and distinctguish between others</p>
+                <div class="code_light"><p>var Constructor_name = function(variables,..,...)<br>
+                   {<br>
+                          .....................;<br>
+
+                 
+                  };<br>
+                 </p>      
+                 
+                 </div>
+                 
+               <br> <p> <b>Ex.</b> Create the constructor which has two arguments and it 
+                 returns the firstname ,lastname </p>
+                   <div class="code_light"><p>
+                 var Person = function(firstName,lastName)<br>
+                 {<br>
+                     
+                           &nbsp;&nbsp;this.firstName : firstName,<br>
+                           &nbsp;&nbsp;this.lastName  : lastName;<br>
+                           
+         
+                };
+                  </p>
+                  
+                 </div>
+                <br> <p>For creating the object use the keyword <b>'new'</b> and call the constructor and pass the 
+                      arguments.<br>Create objects akshay and vicky using constructor function:-
+                     </p>
+                     
+                <p><b>Ex.</b><br>var akshay = new Person('akshay' , 'sorate');
+                   <br>var vicky = new Person('vicky' , 'sorate');</p>   
+		     </div>		
+			</div>
+			</div>
+			</body>
+			

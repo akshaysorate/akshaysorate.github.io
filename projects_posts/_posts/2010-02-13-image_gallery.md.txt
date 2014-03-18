@@ -1,0 +1,9 @@
+---
+category: projects_posts
+layout: project
+image: /img/imge_gallery.png
+src: myprojects/myGallery/indexgallary.html
+title: Sortable image gallery using jquery
+
+---
+ 

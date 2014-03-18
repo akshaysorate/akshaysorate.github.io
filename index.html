@@ -1,0 +1,40 @@
+---
+layout: default
+title: akshay sorate sites
+category: home_posts
+---
+
+<div class="container ">
+  
+  <div class="blog_posts "><img src="img/computer.png" width="75px" height="75px" />Blog post's</div> 
+  </div>
+  
+ <div class="container">
+ 	<ul class="posts">
+ 		
+ 		 {% for post in site.posts %}
+  {% if post.categories contains 'home_posts' %}
+ 
+ 		<li class="panel panel-default"> 
+             
+             <div class="panel-heading"><h4>{{ post.title }}</h4></div>
+              <div class="panel-body">
+              	<blockquote>
+              		<div class="descriptions">
+                        <p> 
+                        	{{post.content}}
+                     </p>     
+                </blockquote>       
+              </div>
+                <a class="btn btn-primary"  href="{{post.src}}"> read more</a>
+               <!--<h3><a href="#">functions</a><h3>
+ 			<div class="descriptions "><p>sadvjfdsm,vn cx</p></div>-->
+ 		
+ 		</li>
+ 		{% endif %}
+ 
+  {% endfor %}
+ 		
+ 	</ul>	
+ </div>
+ 

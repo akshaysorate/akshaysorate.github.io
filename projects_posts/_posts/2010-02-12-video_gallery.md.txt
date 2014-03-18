@@ -1,0 +1,9 @@
+---
+category: projects_posts
+layout: project
+image: /img/bootstrap.png
+src: myprojects/bootstrap_template/index.html
+title: Responsive site using twitter Bootstrap API 
+
+---
+ 

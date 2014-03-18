@@ -1,0 +1,59 @@
+---
+layout: default
+title:  noConflict
+---
+	<link rel="stylesheet " href="../css/basic_info.css"/>
+	       
+	        <body>
+		
+		    <div class="margin_function">	
+			<div class="content">
+			<span ><div class="heading"><h3>Jquery noConflict Method </h3></div></span>
+				
+		     <div class="paragraph">
+		    <p> 
+		    	<ul>	
+               <li>jQuery uses the $ sign as a shortcut for jQuery.</li>
+               <li>Some of the other frameworks also use the $ character as a shortcut (just like jQuery), 
+               and then you suddenly have two different frameworks using the same shortcut, which might result in that your scripts stop working. 		   
+		        </li> 
+		        <li>The jQuery team have already thought about this, and implemented the noConflict() method.</li>
+
+               </ul>
+		    </p>
+		     
+                
+               
+               	 <p> The noConflict() method releases the hold on the $ shortcut identifier, so that other scripts can use it.</p>
+                <p><b>Example:</b></p>  
+               
+                <div class="code_light"><p>$.noConflict();<br>
+                              jQuery(document).ready(function(){<br>
+                              &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;jQuery("button").click(function(){<br>
+                               &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;jQuery("p").text("jQuery is still working!");<br>
+                                 &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;});<br>
+                                });
+                 </p>      
+                 
+                 </div>
+                 
+               <br> <p> You can also create your own shortcut very easily. 
+               	The noConflict() method returns a reference to jQuery, that you can save in a  variable, 
+               	for later use. Here is an example:<br><b>Ex.</b> </p>
+                   <div class="code_light"><p>
+                 var jq = $.noConflict();<br>
+                      jq(document).ready(function(){<br>
+                         &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  jq("button").click(function(){<br>
+                                 &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; jq("p").text("jQuery is still working!");<br>
+                          &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  });<br>
+                        });<br>
+                  </p>
+                  
+                 </div>
+               
+                     
+             
+		     </div>		
+			</div>
+			</div>
+			</body>

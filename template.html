@@ -1,0 +1,29 @@
+---
+layout: default
+title: project
+category: templates_posts
+---
+ 
+<div class="template">
+	 <div class=" blog_posts ">Templates</div> 
+
+<ul class="entries container ">
+  {% for post in site.posts %}
+  {% if post.categories contains 'templates_posts' %}
+ 
+  <li>
+ <div class="heading"><h4>{{post.title}}</h4> </div>
+     <div class"img_margin"> <img src="{{ post.image }}" /></div>
+      
+     <div class="live_demo"> <a class="btn btn-primary" target="blank" href="{{ post.src }}">Live demo </a></div>
+    
+  </li>
+ {% endif %}
+ 
+  {% endfor %}
+</ul>
+
+</div>
+
+
+

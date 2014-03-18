@@ -1,0 +1,121 @@
+
+body{
+	background-color: black;
+}
+.background{
+	margin: 0px; 
+    font: 14px Arial, Helvetica, sans-serif;
+      color: #960;
+      
+}
+img.background{
+	position:fixed;
+	right:0px;
+
+	bottom:0px;
+}
+.title{
+	position:fixed;
+	top:0px;
+	left:0px;
+	width:70px;
+	height:100%;
+	background:url(../images/title_large.png) no-repeat 0px 5px;
+}
+img.background{
+	position:fixed;
+	right:0px;
+	bottom:0px;
+}
+.gallary{
+	margin:0px auto;
+	width: 65%;
+	position: relative;
+	}
+.linkspadding{
+margin-right:5%;
+}
+.links{
+margin: 15px 0px 15px 0px;
+border: 1px solid #6d4d2e;
+background-color:rgba(109,77,46,.3);
+padding: 10px;
+}
+
+
+
+.gallary  .links span{
+	padding: 0px 20px 0px 0px;
+	color:#6d4d2e;
+	font-style:italic;
+}
+.gallary .links a{
+	color:#fff;
+	font-size:.85em;
+	text-decoration:none;
+	text-transform:uppercase;
+	padding:0 20px 0 20px;
+	background:url(images/check_normal.gif) no-repeat 0 2px;
+	
+}
+
+.gallary .links a:hover{
+	color:#e5aa2c;
+}
+
+.gallary .links a.selected{
+	color:#e5aa2c; 
+
+background-image:url(images/check_selected.gif);
+}
+
+
+.gallary .photos a.thumbnail img {
+	width:75px;
+	height:75px;
+
+	border: 1px solid #6d4d2e;
+	float:left;
+	margin:0 10px 10px 0;
+}
+
+.photos{
+	
+	position: relative;
+}
+.gallary .photos a.thumbnail {
+position:absolute;
+}
+
+
+
+@media screen and (min-height:50px) and (max-height:520px) { 
+	.title{background-image:url(../images/title_small.png);}
+}
+@media screen and (min-height:521px) and (max-height:700px) {
+	.title{background-image:url(images/title_medium.png);}
+ }
+@media screen and (min-height:701px) {
+	.title{background-image:url(images/title_large.png);}
+ }
+
+/*Horizontal*/
+@media screen and (min-width:50px) and (max-width:500px) { 
+	.title{background-image:url(images/title_small.png);}
+	body{padding:5px 0px 0px 5px;}
+	.gallary{width:auto; margin-left:35px;}
+	.gallary .links span {display:block; color:#e5aa2c; padding: 0px 0px 20px 0px;}
+	.gallary .links a {display:block;}
+}
+@media screen and (min-width:501px) and (max-width:960px) { 
+       .title{background-image:url(images/title_medium.png);}
+       .gallary .links span {display:block; padding: 0px 0px 20px 0px;}
+       .links{display: block;float:left;}
+       .links.a{width: 25%;}
+       .gallary .photos a.thumbnail{padding-top:150px; }
+	     
+}
+@media screen and (min-width:961px) { 
+	.title{background-image:url(images/title_large.png);}
+	.gallary .links span { padding: 0px 20px 0px 0px;}
+}

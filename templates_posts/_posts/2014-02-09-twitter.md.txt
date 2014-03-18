@@ -1,0 +1,9 @@
+---
+category: templates_posts
+layout: template
+image: /img/menu.png
+src: web_pages/akshay/bar.html
+title: Smart Menu
+
+---
+ 

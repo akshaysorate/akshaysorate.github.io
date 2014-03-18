@@ -1,0 +1,8 @@
+---
+category: demo_posts
+layout: demos
+image: /img/spinning.jpg
+title: Spinig icons
+src: basic_info/sp.html 
+---
+ 

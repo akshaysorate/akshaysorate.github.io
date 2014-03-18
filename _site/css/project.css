@@ -1,0 +1,43 @@
+
+.template{
+	
+	margin-left: 300px;
+	
+	
+}
+
+.live_demo{
+	margin-top: 15px;
+}
+ul.entries {
+position:relative;
+margin-top:80px;
+list-style: none;
+padding: 0px;
+}
+.heading{
+	border-bottom: 2px solid gray;
+	color:rgba(35, 106, 184, 0.76);
+	width:100%;
+
+	margin-bottom: 10px;
+}
+
+ul.entries li{
+	border: 1px solid rgb(207, 207, 207);
+    box-shadow: 0px 0px 3px rgb(170, 165, 165);
+	position:relative;
+    height:auto;
+    display: block;
+	margin-bottom:40px;
+	background: #eee;
+	float:left;
+	padding: 0 10px 20px 10px;
+	border-radius:5px;
+}
+ul.entries li a{
+	text-decoration: none;
+	
+}
+
+.

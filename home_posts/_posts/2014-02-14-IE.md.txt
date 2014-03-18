@@ -1,0 +1,11 @@
+---
+category: home_posts
+layout: default
+title: Code for support tags for earlier version of IE
+src: ../basic_info/IE.html
+
+---
+
+
+The many latest HTML5 tags are supported in IE9 and next version of IE but older versions of IE not support many 
+		     		HTML5 and CSS3 tags.To overcome this problem use the code retrn below in your programme

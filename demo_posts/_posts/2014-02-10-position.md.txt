@@ -1,0 +1,12 @@
+---
+category: demo_posts
+layout: demos
+image: /img/position.png
+title: CSS positioning
+src: basic_info/demo.html
+---
+<<<<<<< HEAD
+ 
+=======
+ 
+>>>>>>> b7d59755f2005448b2ce1e587fff029c0e393732

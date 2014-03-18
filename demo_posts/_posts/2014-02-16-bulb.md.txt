@@ -1,0 +1,8 @@
+---
+category: demo_posts
+layout: demos
+image: /img/bulb_on1.png
+title: Click event using javascript
+src: basic_info/bulb.html
+---
+ 

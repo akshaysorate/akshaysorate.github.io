@@ -1,0 +1,11 @@
+---
+category: home_posts
+layout: default
+title: Javascript Factory function
+src: ../basic_info/function.html
+
+---
+
+
+To avoid repatation of code in generation of multiple object of same properties ,
+         use factory function to minimize the code. Which creats the object and then return it.

@@ -1,0 +1,10 @@
+---
+category: home_posts
+layout: default
+title: Difference between constructor function and factory function
+src: ../basic_info/constructor.html
+
+---
+
+constructor is used for creation of object. Constructor main task is intialization constructor automatically returns  the values no need to return statement.
+Constructor - which creats the objects then return it.

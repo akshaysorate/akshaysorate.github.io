@@ -1,0 +1,9 @@
+---
+category: templates_posts
+layout: template
+image: /img/Untitled.jpg
+src: web_pages/electronix/electronix_template.html
+title: Shopping web page template 
+
+---
+ 

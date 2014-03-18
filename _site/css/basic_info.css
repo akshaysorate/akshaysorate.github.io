@@ -1,0 +1,46 @@
+
+
+
+		.margin_function{
+
+			              margin-top: 80px;
+			              margin: 80px 150px 0px 150px;
+			              background: #fff;
+			              height: auto;
+		                 }
+
+		                 
+		                 
+
+
+		 .content{
+		 	margin: 20px 20px 20px 20px;
+		 	padding-bottom: 20px;
+		 }  
+		               
+		.heading{
+	    padding-top:10px;
+		color: black;
+		margin-bottom:10px;
+		border-bottom: 1px solid gray;
+	    }
+		
+		.code_light{
+			padding:20px 20px 20px 20px;
+		    background: #ddd;
+	}
+
+.paragraph{
+		padding-top:10px;
+		color: black;
+		margin-bottom:10p;
+		border-bottom: 1px solid gray;
+
+		}
+
+		.code_light{
+			padding:20px 20px 20px 20px;
+		    background: #ddd;
+		}
+		
+

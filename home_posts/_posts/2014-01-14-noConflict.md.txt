@@ -1,0 +1,13 @@
+---
+category: home_posts
+layout: default
+title: Jquery noConflict method
+src: ../basic_info/noConflict.html
+---
+
+
+Some of the other frameworks also use the $ character as a shortcut (just like jQuery), and then you suddenly have two different frameworks using the same shortcut, 
+
+which might result in that your scripts stop working.
+
+

@@ -1,0 +1,30 @@
+---
+layout: default
+title: demos
+category: demo_posts
+---
+ 
+<div class=" container">
+
+<div class=" blog_posts ">Demo's</div> 
+
+<ul class="entries  ">
+ {% for post in site.posts %}
+  {% if post.categories contains 'demo_posts' %}
+ 
+  <li class="col-md-3  demo_li">
+  
+
+ 	<div class="heading"><h4>{{post.title}}</h4> </div>
+     <img class="img_margin" src="{{post.image}}"/>
+     <div class="live_demo"> <a class="btn btn-primary" target="blank" href="{{ post.src }}">Live demo </a></div>
+    
+ 
+  </li>
+ 
+  {% endif %}
+ 
+  {% endfor %}
+</ul>
+
+</div>

@@ -1,0 +1,438 @@
+html{
+background: #BFBFBF;
+}
+
+body{
+width: 1200px;
+margin:0px auto;
+background: #f7f7f7;
+ font-family:sans-serif;
+}
+
+/******* left part  *******************/
+.col1{
+width: 350px;
+float:left;
+padding: 100px 0 100px 100px;
+}
+                                /*****************video properties********************/
+
+.video{
+	    height: 200px;
+	    background:#1D9BD4;
+        }
+.button1{
+	width: 350px;
+	height:150px;
+	background: url(template/buttons1.png) no-repeat 130px 50px;
+	}
+	
+	
+.control_bar{
+ height:50px;
+ background:url(template/video-controls.png) no-repeat ;
+}
+
+                                 /***********************graph****************/
+.revenue{
+	width:350px;
+	margin-top: 50px;
+	height: 500px;
+    background: #ffffff;
+    float:left;	
+
+}
+
+.graph{
+	width:350px;
+	height: 300px;
+	background: url(template/graph3.png) no-repeat center ;
+	font-size: 20px;
+	font-weight: bold;
+     color:#ffffff;
+    
+    float: left;
+}
+
+.revenue_text{
+margin: 5px 0 0 120px;
+
+}
+
+.inquries{
+          margin:0px;
+	     width:350px;
+	    
+	      height: 100px;
+	      font-size:15px;      
+	      color:gray; 
+  	      background:url(template/chart.png) no-repeat center;
+  	      background-position:20px 30px;
+	      float:left
+         }
+  .text{
+  	font-size: 18px;
+  	color:rgb(210,214,220);
+  	margin:5px 0 0 20px;
+  }       
+.number{
+	font-size: 30px;
+	color:rgb(31,187,166);
+ 
+	float:left;
+	font-weight: bold;
+}
+#number{
+	   margin:5px 0 0 240px;
+}
+.below_text{
+	font-size: 10px;
+	color:gray;
+    float: right;
+    margin:  3px 10px 0 0;
+	
+}
+.gross_left{
+	width: 175px;
+	height: 100px;
+	float:left;
+}
+.gross_text{
+	padding:10px 0 0 0;
+	height: 30px;
+	float: left;
+}
+
+.gross_number{
+	height: 60px;
+	padding:0 0 0 20px;
+	float: left;
+}
+
+/*****************************middle part start*********************/
+.col2{
+      width:270px;
+      float:left;
+      padding: 100px 50px 100px 50px;
+}
+
+
+
+/******pie chart start***********************************/
+.pie_chart{
+	height: 380px;
+	background:#ffffff;
+	
+	}
+
+.task_bar{
+	height: 50px;
+	background-color: rgb(50,58,69);
+	}
+.pie_text{
+	font-size: 20px;
+	color: rgb(241,241,243);
+   padding-top:10px;
+   text-align:center;
+   font-weight: bold;
+
+}
+
+
+.circle{
+	height: 250px;
+	background:url(template/circle.png) no-repeat center;
+}
+
+.pie_menu{
+	height:80px; 
+
+	margin-top: 20px;
+}
+.menu
+{
+list-style-type:none;
+margin: 0;
+padding:0;	
+}
+.pie_li{
+width:90px;
+display: block;
+float: left;
+font-weight:bold;
+color:rgb(94,109,129);
+font-size: 12px;
+text-decoration: none;
+text-align:center;
+line-height:50px; 
+padding-top:15px;
+
+
+background: url(template/pie-bar2.png) no-repeat 30px 10px,rgb(249,250,252) ;
+}
+
+.pie_li:hover{
+	color:rgb(20,185,214);
+	background:url(template/pie-bar2.png) no-repeat 30px 10px,rgb(255,255,255);
+   }
+
+#chart{
+background-position:30px 10px;
+}
+
+#task{
+	width:88px;
+		border-left:solid rgb(234,237,241);
+	border-right:solid rgb(234,237,241);
+   border-width:1px;
+background-position:-60px 10px;
+}
+#event{
+background-position:-160px 10px;
+}
+/***************pie chart end*********************************************/
+
+/************************mail box started*********************************/
+.mail_box{
+	width:270px;
+	height: 319px;
+	margin-top: 50px;
+	float:left;
+
+	background: #ffffff;
+}
+
+.mail_menu{
+	width:270px;
+	line-height:43px;
+    display:block;
+    float:left;
+    color:rgb(158,167,179);
+	font-size:20px;
+    text-decoration: none;
+    font-weight: bold; 
+    overflow: hidden; 
+    border-top:solid rgb(234,237,241);
+   border-top-width:1px;
+   background: url(template/mal-menu.png) no-repeat 20px 10px,url(template/goal.png) no-repeat 230px 10px; 
+}
+
+.mail_menu:hover{
+	background: url(template/mal-menu.png) no-repeat 20px 10px,url(template/goal.png) no-repeat 230px 10px,rgb(158,167,179);
+	color:rgb(255,255,255);
+}
+
+.mail_span{
+margin-left:45px; 
+}
+
+#inbox{
+	background-position: 20px 10px,220px 10px;
+
+}
+#starred{
+	background-position: 20px -35px,220px -40px;	
+}
+
+#flagged{
+	background-position: 20px -90px, 220px -90px;
+}
+#sent{
+	background-position: 20px -135px,220px -140px;
+	
+}
+#deleted{
+	background-position: 20px -190px,220px -190px;
+}
+#more{
+	background:none;
+}
+/***************************middle part end****************************/
+
+/************************right part login****************************/
+.col3{
+width: 280px;
+padding:100px 100px 100px 0px;
+float:right;
+}
+
+.login_menu{
+height: 170px;
+padding-bottom: 40px;
+}
+.login_list{
+	display: block;
+    line-height:48px;
+    font-size:20px;
+    color:rgb(219,225,232);
+    text-decoration: none;
+    background:url(template/login_menu.png) no-repeat 20px 20px,#ffffff;
+    font-weight:bold;
+     border-top:solid rgb(234,237,241);
+     border-top-width:1px;
+     }
+     
+     .login_span{
+     	margin-left: 60px;
+     }
+#username{
+	background-position: 20px 20px;
+}
+#password{
+	background-position: 20px -35px;
+}
+#login_button{
+	background: rgb(242,121,53);
+}
+.login{
+	width:280px;
+   line-height: 50px;
+   margin-top: 10px;
+   color:rgb(255,255,255);
+   text-align:center;
+   font-size:22px;
+}
+/***********************login end***********************/
+
+/**************bedge***********************************/
+.bedge{
+	
+	height: 170px;
+	padding-bottom: 40px;
+	
+}
+
+.avtar{
+	background: url(template/avatar.png) no-repeat 20px 15px,#ffffff;
+	height: 115px;
+
+	
+	margin-top: 5px;
+}
+
+#arya{
+	font-size: 22px;
+	color:rgb(94,109,129);
+	font-weight: bold;
+    padding-left:120px;
+	padding-top: 20px;
+}
+.winter_text{
+	
+	font-size: 16px;
+	color:rgb(94,109,129);
+}
+#winter{
+	margin-left:120px;
+}
+
+.chart_list{
+	display: block;
+	width: 93px;
+	float:left;
+    height:55px;
+	font-size: 10px;
+    text-decoration:none;
+    color:#ffffff;
+    background: url(template/badge.png) no-repeat 30px 10px; 
+}
+#heart{background-color:rgb(20,185,214);
+	background-position: 30px 10px;
+	
+}
+#peple{
+	background-color:rgb(242,121,53);
+	background-position: -60px 10px;
+}
+#eye{
+	 width:94px;
+     background-color:rgb(31,187,166);
+     background-position: -150px 10px;
+}
+
+.div_list{
+	padding-left: 30px;
+   padding-top: 30px;
+}
+
+/***********************end of badge*************************************/
+
+.event{
+	height: 170px;
+	width:280px;
+	padding-bottom: 40px;
+	
+	}
+	
+.event_list{
+	display: block;
+	height: 50px;
+	float:left;
+	text-decoration: none;
+	font-size:12px;
+	color:rgb(94,109,129);
+	background:url(template/event.png) no-repeat 20px 20px,#ffffff;
+}
+#winterfell{
+    width:180px;
+line-height:50px;
+text-align:center;
+	background-position: 20px 20px;
+}
+#notes{
+	border-left:solid rgb(234,237,241);
+	border-right:solid rgb(234,237,241);
+   border-width:1px;
+ width:48px;
+	background-position: -153px 20px;
+}
+ #dat{
+	width:50px;
+	background-position: -200px 20px;
+   }
+
+#add_event{
+	background: rgb(20,185,214);
+}
+
+
+#date{
+line-height:50px;
+font-size:20px;
+font-weight:bold;
+color: rgb(241,241,243);
+padding-left:60px;
+background: url(template/date.png) no-repeat 20px 17px,rgb(50,58,69);
+}
+/**************************end of event***********************************/
+.time{
+	width: 280px;
+	height: 120px;
+	background:#ffffff;
+}
+
+.time_text{
+	height: 50px;
+	}
+#slogan{
+	height:50px;
+	width:230px;
+     background: rgb(32,49,51);	
+     float:left;
+}
+#plus_image{
+	height:50px;
+   width:50px;
+	background:rgb(32,34,51);
+	float:left;
+}
+
+.time_display{
+ line-height:60px;
+ 	font-size:33px;
+ 	font-weight:bold;
+	padding-left: 70px;
+	color:rgb(255,255,255);
+	background:rgb(31,187,166); 
+}
+

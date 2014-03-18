@@ -1,0 +1,131 @@
+
+<!doctype html>
+<html>
+    <head>
+    <meta charset="utf-8">
+        <title>Untitled Document</title>
+        <!--[if lt IE 9]>
+        	<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+        <![endif]-->
+        <style>
+        body{
+			background-color:#EFEFEF;
+			margin:0px;
+			padding:0px;
+			font-family:"Helvetica Neue", HelveticaNeue, Helvetica, Arial, sans-serif;
+		}
+		#mainContainer{
+			width: 960px;
+			height: 100%;
+			background-color: #fff;
+			border: 2px solid rgba(145, 145, 145, 0.35);
+			margin: 0px auto;
+			padding: 20px 40px;
+			text-align: center;
+		}
+		h2{
+			color: violet;
+			font-size: 67px;
+		}
+		span{
+			color: rgb(109, 109, 109);
+		}
+
+		.background{
+			width: 94px;
+			height: 89px;
+			margin: 20px 39px;
+			padding: 0px;
+			display: inline-block;
+			-webkit-transition: -webkit-transform 1s ease-out;
+			-moz-transition: -moz-transform 1s ease-out;
+			transition: transform 1s ease-out;
+		} 
+		
+		ul{
+			text-decoration:none;
+			float: left;
+		list-style-type:none;
+			display: inline;
+		}
+		.li{
+		   text-decoration:none;
+			margin-left:20px;
+			margin-top: 20px;
+		}
+		.background:hover{
+			-webkit-transform: rotate(360deg);
+			-moz-transform: rotate(360deg);
+			transform: rotate(360deg);
+			cursor: pointer;
+		}
+		#iconContainer{
+			
+			width: 600px;
+			height:150px;
+			margin: 30px auto;
+			border: 1px solid rgba(128, 128, 128, 0.1);
+		}
+		
+		#description{
+			width: 600px;
+			margin: 0 auto;
+			text-align: start;
+		}
+		code{
+			font-family: normal;
+			color:rgb(199, 38, 199);
+			font-size: 19px;
+			margin: 20px 0px;
+		}
+		.code{
+			margin: 20px 30px;
+		}
+        
+        </style>
+    </head>
+    <body>
+    <div id="mainContainer">
+    	<h2>Spining Icons</h2>
+        <span> Please hover over the icons shown below :</span>
+        <div id="iconContainer">
+        	<ul>
+        	<li class="background"><img src="../img/images/audio.png"></li>
+        		<li class="background"><img src="../img/images/small_icons_400_Free_03_09.png"></li>
+        <li class="background"><img src="../img/images/watch.png"></li>
+           </ul>
+        </div>
+
+        <div id="description">
+        	<span>For rotating images on hover ,apply tansition and transform properties of css3</span></br>
+     
+        	<span>1. apply the CSS transition to the selected element - </span>
+     			</br>
+ 				<div class="code">
+ 					<code>
+ 					{</br>
+ 					
+					transition: transform 1s ease-out;</br>
+ 					}
+ 					</code>
+ 				</div>
+ 					
+ 				</code>
+     		<span>2. Then apply CSS transform on :hover of the selected element -</span>
+     			 </br>
+     			 <div class="code">
+     			 	<code>
+     					{</br>
+						transform: rotate(360deg);</br>
+     				}</br>
+     				</code>
+
+     			 </div>
+     				
+        </div>
+    
+    </div>
+    
+    
+    </body>
+</html>

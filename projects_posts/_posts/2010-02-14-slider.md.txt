@@ -1,0 +1,9 @@
+---
+category: projects_posts
+layout: project
+image: /img/slider.png
+src: myprojects/myMarquee/marquee.html
+title: Sliding home page using jquery
+
+---
+ 
